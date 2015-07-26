@@ -1,0 +1,622 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+X:\Cortex-M3_207z\data\program\Open207Z\example\USARTx_pritf\Project\Project.uvproj
+Project File Date:  10/13/2013
+
+<h2>Output:</h2>
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(29): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(34): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(43): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(51): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(58): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(63): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(71): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(96): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(110): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(142): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(29): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(34): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(43): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(51): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(58): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(63): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(71): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(96): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(110): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(142): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(29): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(34): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(38): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(43): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(51): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(58): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(61): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(63): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(71): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(96): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(110): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(142): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling JOYState.c...
+compiling AsciiLib.c...
+compiling LCD.c...
+compiling misc.c...
+compiling stm32f2xx_gpio.c...
+compiling stm32f2xx_usart.c...
+compiling stm32f2xx_rcc.c...
+compiling stm32f2xx_fsmc.c...
+compiling stm32f2xx_tim.c...
+compiling core_cm3.c...
+compiling system_stm32f2xx.c...
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(27): error:  #5: cannot open source input file "config.g": No such file or directory
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling JOYState.c...
+compiling AsciiLib.c...
+compiling LCD.c...
+compiling misc.c...
+compiling stm32f2xx_gpio.c...
+compiling stm32f2xx_usart.c...
+compiling stm32f2xx_rcc.c...
+compiling stm32f2xx_fsmc.c...
+compiling stm32f2xx_tim.c...
+compiling core_cm3.c...
+compiling system_stm32f2xx.c...
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling JOYState.c...
+compiling AsciiLib.c...
+compiling LCD.c...
+compiling misc.c...
+compiling stm32f2xx_gpio.c...
+compiling stm32f2xx_usart.c...
+compiling stm32f2xx_rcc.c...
+compiling stm32f2xx_fsmc.c...
+compiling stm32f2xx_tim.c...
+compiling core_cm3.c...
+compiling system_stm32f2xx.c...
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling config.c...
+..\User\config.c(12): error:  #20: identifier "Open207Z_LED_GPIO_CLK" is undefined
+..\User\config.c(15): error:  #20: identifier "Open207Z_GPIO_Pin_LED1" is undefined
+..\User\config.c(15): error:  #20: identifier "Open207Z_GPIO_Pin_LED2" is undefined
+..\User\config.c(16): error:  #20: identifier "Open207Z_GPIO_Pin_LED3" is undefined
+..\User\config.c(16): error:  #20: identifier "Open207Z_GPIO_Pin_LED4" is undefined
+..\User\config.c(21): error:  #20: identifier "Open207Z_LED_GPIO" is undefined
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+Target not created
+Build target 'Open207Z'
+compiling main.c...
+compiling stm32f2xx_it.c...
+..\User\stm32f2xx_it.c(172): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling usart.c...
+..\User\usart.c(27): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_CLK" is undefined
+..\User\usart.c(28): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_CLK" is undefined
+..\User\usart.c(33): error:  #20: identifier "Open207Z_USARTx_CLK" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_GPIO_PORT" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_SOURCE" is undefined
+..\User\usart.c(36): error:  #20: identifier "Open207Z_USARTx_TX_AF" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_GPIO_PORT" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_SOURCE" is undefined
+..\User\usart.c(37): error:  #20: identifier "Open207Z_USARTx_RX_AF" is undefined
+..\User\usart.c(42): error:  #20: identifier "Open207Z_USARTx_TX_PIN" is undefined
+..\User\usart.c(50): error:  #20: identifier "Open207Z_USARTx_RX_PIN" is undefined
+..\User\usart.c(56): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_CLK" is undefined
+..\User\usart.c(57): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_CLK" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_GPIO_PORT" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_SOURCE" is undefined
+..\User\usart.c(59): error:  #20: identifier "Open207Z_USARTx_RTS_AF" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_GPIO_PORT" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_SOURCE" is undefined
+..\User\usart.c(60): error:  #20: identifier "Open207Z_USARTx_CTS_AF" is undefined
+..\User\usart.c(62): error:  #20: identifier "Open207Z_USARTx_RTS_PIN" is undefined
+..\User\usart.c(70): error:  #20: identifier "Open207Z_USARTx_CTS_PIN" is undefined
+..\User\usart.c(95): error:  #20: identifier "Open207Z_USARTx" is undefined
+..\User\usart.c(109): error:  #20: identifier "Open207Z_USARTx_IRQn" is undefined
+..\User\usart.c(141): error:  #20: identifier "Open207Z_USARTx" is undefined
+compiling JOYState.c...
+compiling AsciiLib.c...
+compiling LCD.c...
+compiling misc.c...
+compiling stm32f2xx_gpio.c...
+compiling stm32f2xx_usart.c...
+compiling stm32f2xx_rcc.c...
+compiling stm32f2xx_fsmc.c...
+compiling stm32f2xx_tim.c...
+compiling core_cm3.c...
+compiling system_stm32f2xx.c...
+Target not created

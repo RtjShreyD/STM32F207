@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\output\startup_stm32f2xx.o" ".\output\system_stm32f2xx.o" ".\output\core_cm3.o" ".\output\misc.o" ".\output\stm32f2xx_gpio.o" ".\output\stm32f2xx_usart.o" ".\output\stm32f2xx_rcc.o" ".\output\stm32f2xx_i2c.o" ".\output\stm32f2xx_sdio.o" ".\output\stm32f2xx_flash.o" ".\output\stm32f2xx_dma.o" ".\output\diskio.o" ".\output\ff.o" ".\output\cc936.o" ".\output\main.o" ".\output\stm32f2xx_it.o" ".\output\sdcard.o" ".\output\config.o" ".\output\usart.o" --strict --scatter ".\Output\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\Project.map" -o ".\Output\Project.axf"

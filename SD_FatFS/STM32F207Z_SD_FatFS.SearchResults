@@ -1,0 +1,7 @@
+---- SD_SetDeviceMode Matches (6 in 4 files) ----
+Diskio.c (libraries\fatfs):		       		Status = SD_SetDeviceMode(SD_DMA_MODE);
+Diskio.c (libraries\fatfs):		       		Status = SD_SetDeviceMode(SD_INTERRUPT_MODE);  
+Project.htm (project\output):<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SD_SetDeviceMode
+Project.htm (project\output):<P><STRONG><a name="[86]"></a>SD_SetDeviceMode</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, sdcard.o(.text))
+Sdcard.c (user):SD_Error SD_SetDeviceMode(uint32_t Mode)
+Sdcard.h (user):SD_Error SD_SetDeviceMode(uint32_t Mode);

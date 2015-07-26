@@ -1,0 +1,19 @@
+---- OSTimeGet Matches (18 in 8 files) ----
+GUI_X_uCOS.c (user\ucgui):   return ((int)OSTimeGet());
+Os_cfg.h (user\uccos_app):#define OS_TIME_GET_SET_EN        1u   /*     Include code for OSTimeGet() and OSTimeSet()             */
+Os_cfg_r.h (user\ucos-ii\source):#define OS_TIME_GET_SET_EN        1u   /*     Include code for OSTimeGet() and OSTimeSet()             */
+Os_time.c (user\ucos-ii\source):INT32U  OSTimeGet (void)
+Os_view.c (user\ucos-view\source):    time = OSTimeGet();                                     /* Send current value of tick counter              */
+Os_view.c (user\ucos-view\source):    OSView_TxStoINT16U((INT16U)OSTimeGet());
+Os_view.h (user\ucos-view\source):#error  "OS_CFG.H, OS_TIME_GET_SET_EN needs to be set to 1 to include code for OSTimeGet()"
+Project.htm (mdk_project\out):<LI><a href="#[2e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeGet
+Project.htm (mdk_project\out):<LI><a href="#[2e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeGet
+Project.htm (mdk_project\out):<LI>Call Chain = GUI_GetTime &rArr; GUI_X_GetTime &rArr; OSTimeGet
+Project.htm (mdk_project\out):<LI>Call Chain = GUI_X_GetTime &rArr; OSTimeGet
+Project.htm (mdk_project\out):<BR>[Calls]<UL><LI><a href="#[2e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeGet
+Project.htm (mdk_project\out):<P><STRONG><a name="[2e3]"></a>OSTimeGet</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, os_time.o(i.OSTimeGet))
+Project.htm (mdk_project\out):<LI>Call Chain = OSTimeGet
+Project.htm (mdk_project\out):<LI><a href="#[2e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeGet
+Project.htm (mdk_project\out):<LI><a href="#[2e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeGet
+Ucos_ii.h (user\ucos-ii\source):INT32U        OSTimeGet               (void);
+Ucos_ii.h (user\ucos-ii\source):#error  "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"

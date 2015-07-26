@@ -1,0 +1,25 @@
+---- _ExecCalibration Matches (24 in 3 files) ----
+Project.htm (project\output):<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<P><STRONG><a name="[103]"></a>_ExecCalibration</STRONG> (Thumb, 470 bytes, Stack size 64 bytes, guidemo_touch.o(.text))
+Project.htm (project\output):<BR><BR>[Stack]<UL><LI>Max Depth = 592<LI>Call Chain = _ExecCalibration &rArr; GUI_Delay &rArr; GUI_Exec &rArr; GUI_Exec1 &rArr; WM_Exec &rArr; WM_Exec1 &rArr; _DrawNext &rArr; _Paint &rArr; GUI_MEMDEV_Draw &rArr; GUI_MEMDEV_CreateEx &rArr; GUI_MEMDEV__CreateFixed &rArr; GUI_USAGE_BM_Create &rArr; GUI_ALLOC_AllocZero &rArr; GUI_ALLOC_AllocNoInit &rArr; _Alloc &rArr; _CreateHole
+Project.htm (project\output):<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Project.htm (project\output):<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ExecCalibration
+Main.c (user):   _ExecCalibration();	  /* Calibrate touch panel */
+GUIDEMO_Touch.c (user\ucgui\ucguidemo):*       _ExecCalibration
+GUIDEMO_Touch.c (user\ucgui\ucguidemo):void _ExecCalibration(void) {
+GUIDEMO_Touch.c (user\ucgui\ucguidemo):    case ID_CALIBRATE: _ExecCalibration(); break;

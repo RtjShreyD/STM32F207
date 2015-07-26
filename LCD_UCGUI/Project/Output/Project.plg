@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+\\nas-server\D\Cortex-M3_207z\data\program\Open207Z\LCD_UCGUI\Project\Project.uvproj
+Project File Date:  07/26/2015
+
+<h2>Output:</h2>
+Build target 'Open207Z'
+compiling core_cm3.c...
+core_cm3.c: error: L6002U: Could not open file .\Output\core_cm3.o: No such file or directory
+Target not created

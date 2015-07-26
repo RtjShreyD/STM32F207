@@ -1,0 +1,50 @@
+---- GUIDEMO_main Matches (46 in 14 files) ----
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo):*       GUIDEMO_main(): Large version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo):void GUIDEMO_main(void) {
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo):*       GUIDEMO_main(): Small version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo):void GUIDEMO_main(void) {
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo2):*       GUIDEMO_main(): Large version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo2):void GUIDEMO_main(void) {
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo2):*       GUIDEMO_main(): Small version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo2):void GUIDEMO_main(void) {
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\emwindemo):*       GUIDEMO_main(): Large version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\emwindemo):void GUIDEMO_main(void) {
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\emwindemo):*       GUIDEMO_main(): Small version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\emwindemo):void GUIDEMO_main(void) {
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\ucguidemo):*       GUIDEMO_main(): Large version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\ucguidemo):void GUIDEMO_main(void) {
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\ucguidemo):*       GUIDEMO_main(): Small version of the demo
+GUIDEMO.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\ucguidemo):void GUIDEMO_main(void) {
+GUIDEMO.h (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo):void GUIDEMO_main(void);
+GUIDEMO.h (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo2):void GUIDEMO_main(void);
+GUIDEMO.h (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\emwindemo):void GUIDEMO_main(void);
+GUIDEMO.h (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\ucguidemo):void GUIDEMO_main(void);
+Main.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user):   		GUIDEMO_main();
+MainTask.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo):    GUIDEMO_main();
+MainTask.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\ucgui_lib\user\ucgui\guidemo2):    GUIDEMO_main();
+MainTask.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\emwindemo):    GUIDEMO_main();
+MainTask.c (x:\cortex-m3_207z\data\program\open207z\lcd_ucgui\user\ucgui\ucguidemo):    GUIDEMO_main();
+Project.htm (output):<LI>Call Chain = __rt_entry_main &rArr; main &rArr; GUIDEMO_main &rArr; GUIDEMO_Intro &rArr; GUIDEMO_Delay &rArr; GUIDEMO_CheckCancel &rArr; GUI_Delay &rArr; GUI_Exec &rArr; GUI_Exec1 &rArr; WM_Exec &rArr; WM_Exec1 &rArr; _DrawNext &rArr; _Paint &rArr; GUI_MEMDEV_Draw &rArr; GUI_MEMDEV_CreateEx &rArr; GUI_MEMDEV__CreateFixed &rArr; GUI_USAGE_BM_Create &rArr; GUI_ALLOC_AllocZero &rArr; GUI_ALLOC_AllocNoInit &rArr; _Alloc &rArr; _CreateHole
+Project.htm (output):<BR><BR>[Stack]<UL><LI>Max Depth = 776<LI>Call Chain = main &rArr; GUIDEMO_main &rArr; GUIDEMO_Intro &rArr; GUIDEMO_Delay &rArr; GUIDEMO_CheckCancel &rArr; GUI_Delay &rArr; GUI_Exec &rArr; GUI_Exec1 &rArr; WM_Exec &rArr; WM_Exec1 &rArr; _DrawNext &rArr; _Paint &rArr; GUI_MEMDEV_Draw &rArr; GUI_MEMDEV_CreateEx &rArr; GUI_MEMDEV__CreateFixed &rArr; GUI_USAGE_BM_Create &rArr; GUI_ALLOC_AllocZero &rArr; GUI_ALLOC_AllocNoInit &rArr; _Alloc &rArr; _CreateHole
+Project.htm (output):<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<P><STRONG><a name="[104]"></a>GUIDEMO_main</STRONG> (Thumb, 432 bytes, Stack size 128 bytes, guidemo.o(.text))
+Project.htm (output):<BR><BR>[Stack]<UL><LI>Max Depth = 776<LI>Call Chain = GUIDEMO_main &rArr; GUIDEMO_Intro &rArr; GUIDEMO_Delay &rArr; GUIDEMO_CheckCancel &rArr; GUI_Delay &rArr; GUI_Exec &rArr; GUI_Exec1 &rArr; WM_Exec &rArr; WM_Exec1 &rArr; _DrawNext &rArr; _Paint &rArr; GUI_MEMDEV_Draw &rArr; GUI_MEMDEV_CreateEx &rArr; GUI_MEMDEV__CreateFixed &rArr; GUI_USAGE_BM_Create &rArr; GUI_ALLOC_AllocZero &rArr; GUI_ALLOC_AllocNoInit &rArr; _Alloc &rArr; _CreateHole
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+Project.htm (output):<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GUIDEMO_main
+---- GUIDEMO_main Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+X:\Cortex-M3_207z\data\program\Open207Z\LCD_UCGUI\Project\JLinkLog.txt : File could not be opened.

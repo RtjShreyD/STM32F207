@@ -1,0 +1,124 @@
+---- pen207Z Matches (152 in 5 files) ----
+JLinkLog.txt (spix_at450bxx\project):T0C50 000:354 JLINK_ExecCommand("ProjectFile = "D:\STM32\Open207Z\PnS_SPI_TEST\SPIx_AT450BXX\Project\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0354ms total)
+Main.c (spix_at450bxx\user):		GPIO_SetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED2);
+Main.c (spix_at450bxx\user):		GPIO_SetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED3);
+Main.c (spix_at450bxx\user):		GPIO_SetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED4);
+Main.c (spix_at450bxx\user):		GPIO_ResetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED2);
+Main.c (spix_at450bxx\user):		GPIO_ResetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED3);
+Main.c (spix_at450bxx\user):		GPIO_ResetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED4);
+Main.c (spix_at450bxx\user):		GPIO_SetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED4);
+Main.c (spix_at450bxx\user):				GPIO_SetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED1);
+Main.c (spix_at450bxx\user):		GPIO_ResetBits(Open207Z_LED_GPIO , Open207Z_GPIO_Pin_LED4);
+Stm32f2xx_it.c (spix_at450bxx\user):  if(USART_GetITStatus(Open207Z_USARTx, USART_IT_RXNE) != RESET)
+Stm32f2xx_it.c (spix_at450bxx\user):		//printf("\n\rUSART1 Hyperterminal Interrupts Receive a word: %c\n\r",USART_ReceiveData(Open207Z_USARTx));
+Stm32f2xx_it.c (spix_at450bxx\user):		Recv_Data = USART_ReceiveData(Open207Z_USARTx);
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI1_CS_PIN                   GPIO_Pin_4
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI1_CS_GPIO_PORT             GPIOA
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI1_CS_GPIO_CLK              RCC_AHB1Periph_GPIOA
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI2_CS_PIN                   GPIO_Pin_12
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI2_CS_GPIO_PORT             GPIOB
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI2_CS_GPIO_CLK              RCC_AHB1Periph_GPIOB
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI3_CS_PIN                   GPIO_Pin_4
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI3_CS_GPIO_PORT             GPIOA
+ws_AT45DBXX.h (spix_at450bxx\user):#define Open207Z_SPI3_CS_GPIO_CLK              RCC_AHB1Periph_GPIOA
+ws_AT45DBXX.h (spix_at450bxx\user):#define SPI_CS1_Enable 	GPIO_ResetBits(Open207Z_SPI1_CS_GPIO_PORT,Open207Z_SPI1_CS_PIN);
+ws_AT45DBXX.h (spix_at450bxx\user):#define SPI_CS1_Disable 	GPIO_SetBits(Open207Z_SPI1_CS_GPIO_PORT,Open207Z_SPI1_CS_PIN);
+ws_AT45DBXX.h (spix_at450bxx\user):#define SPI_CS2_Enable 	GPIO_ResetBits(Open207Z_SPI2_CS_GPIO_PORT,Open207Z_SPI2_CS_PIN);
+ws_AT45DBXX.h (spix_at450bxx\user):#define SPI_CS2_Disable 	GPIO_SetBits(Open207Z_SPI2_CS_GPIO_PORT,Open207Z_SPI2_CS_PIN);
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1							SPI1
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_CLK						RCC_APB2Periph_SPI1
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_IRQn						SPI1_IRQn
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_IRQHANDLER				SPI1_IRQHandler
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_SCK_PIN					GPIO_Pin_5
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_SCK_GPIO_PORT 			GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_SCK_GPIO_CLK				RCC_AHB1Periph_GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_SCK_SOURCE				GPIO_PinSource5
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_SCK_AF					GPIO_AF_SPI1
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MISO_PIN					GPIO_Pin_6
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MISO_GPIO_PORT			GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MISO_GPIO_CLK 			RCC_AHB1Periph_GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MISO_SOURCE				GPIO_PinSource6
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MISO_AF					GPIO_AF_SPI1
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MOSI_PIN					GPIO_Pin_7
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MOSI_GPIO_PORT			GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MOSI_GPIO_CLK 			RCC_AHB1Periph_GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MOSI_SOURCE				GPIO_PinSource7
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_MOSI_AF					GPIO_AF_SPI1
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2                           SPI2
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_CLK                       RCC_APB1Periph_SPI2
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_IRQn                      SPI2_IRQn
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_IRQHANDLER                SPI2_IRQHandler
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_SCK_PIN                   GPIO_Pin_13
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_SCK_GPIO_PORT             GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_SCK_GPIO_CLK              RCC_AHB1Periph_GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_SCK_SOURCE                GPIO_PinSource13
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_SCK_AF                    GPIO_AF_SPI2
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MISO_PIN                  GPIO_Pin_14
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MISO_GPIO_PORT            GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MISO_GPIO_CLK             RCC_AHB1Periph_GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MISO_SOURCE               GPIO_PinSource14
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MISO_AF                   GPIO_AF_SPI2
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MOSI_PIN                  GPIO_Pin_15
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MOSI_GPIO_PORT            GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MOSI_GPIO_CLK             RCC_AHB1Periph_GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MOSI_SOURCE               GPIO_PinSource15
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_MOSI_AF                   GPIO_AF_SPI2
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_CS_PIN                   GPIO_Pin_4
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_CS_GPIO_PORT             GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI1_CS_GPIO_CLK              RCC_AHB1Periph_GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_CS_PIN                   GPIO_Pin_12
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_CS_GPIO_PORT             GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI2_CS_GPIO_CLK              RCC_AHB1Periph_GPIOB
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI3_CS_PIN                   GPIO_Pin_4
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI3_CS_GPIO_PORT             GPIOA
+Ws_spi.c (spix_at450bxx\user):#define Open207Z_SPI3_CS_GPIO_CLK              RCC_AHB1Periph_GPIOA
+Ws_spi.c (spix_at450bxx\user):	RCC_AHB1PeriphClockCmd(Open207Z_SPI1_CS_GPIO_CLK,ENABLE);
+Ws_spi.c (spix_at450bxx\user):	GPIO_InitStructure.GPIO_Pin = Open207Z_SPI1_CS_PIN;
+Ws_spi.c (spix_at450bxx\user):	GPIO_Init(Open207Z_SPI1_CS_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	RCC_AHB1PeriphClockCmd(Open207Z_SPI1_SCK_GPIO_CLK | Open207Z_SPI1_MISO_GPIO_CLK | Open207Z_SPI1_MOSI_GPIO_CLK,ENABLE);
+Ws_spi.c (spix_at450bxx\user):	RCC_APB2PeriphClockCmd(Open207Z_SPI1_CLK,ENABLE); //spi1
+Ws_spi.c (spix_at450bxx\user):	GPIO_PinAFConfig(Open207Z_SPI1_SCK_GPIO_PORT, Open207Z_SPI1_SCK_SOURCE,  Open207Z_SPI1_SCK_AF);
+Ws_spi.c (spix_at450bxx\user):	GPIO_PinAFConfig(Open207Z_SPI1_MISO_GPIO_PORT, Open207Z_SPI1_MISO_SOURCE, Open207Z_SPI1_MISO_AF);
+Ws_spi.c (spix_at450bxx\user):	GPIO_PinAFConfig(Open207Z_SPI1_MOSI_GPIO_PORT, Open207Z_SPI1_MOSI_SOURCE, Open207Z_SPI1_MOSI_AF);
+Ws_spi.c (spix_at450bxx\user):	GPIO_InitStructure.GPIO_Pin = Open207Z_SPI1_SCK_PIN;
+Ws_spi.c (spix_at450bxx\user):	GPIO_Init(Open207Z_SPI1_SCK_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	GPIO_InitStructure.GPIO_Pin = Open207Z_SPI1_MISO_PIN;
+Ws_spi.c (spix_at450bxx\user):	GPIO_Init(Open207Z_SPI1_MISO_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	GPIO_InitStructure.GPIO_Pin = Open207Z_SPI1_MOSI_PIN;
+Ws_spi.c (spix_at450bxx\user):	GPIO_Init(Open207Z_SPI1_MOSI_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_DeInit(Open207Z_SPI1);
+Ws_spi.c (spix_at450bxx\user):	SPI_Init(Open207Z_SPI1, &SPI_InitStruct);
+Ws_spi.c (spix_at450bxx\user):	SPI_Cmd(Open207Z_SPI1, ENABLE);
+Ws_spi.c (spix_at450bxx\user):RCC_AHB1PeriphClockCmd(Open207Z_SPI2_CS_GPIO_CLK,ENABLE);
+Ws_spi.c (spix_at450bxx\user):GPIO_InitStructure.GPIO_Pin = Open207Z_SPI2_CS_PIN;
+Ws_spi.c (spix_at450bxx\user):GPIO_Init(Open207Z_SPI2_CS_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	RCC_AHB1PeriphClockCmd(Open207Z_SPI2_SCK_GPIO_CLK | Open207Z_SPI2_MISO_GPIO_CLK | Open207Z_SPI2_MOSI_GPIO_CLK,ENABLE);
+Ws_spi.c (spix_at450bxx\user):	RCC_APB1PeriphClockCmd(Open207Z_SPI2_CLK,ENABLE); //spi2
+Ws_spi.c (spix_at450bxx\user):	GPIO_PinAFConfig(Open207Z_SPI2_SCK_GPIO_PORT, Open207Z_SPI2_SCK_SOURCE,  Open207Z_SPI2_SCK_AF);
+Ws_spi.c (spix_at450bxx\user):	GPIO_PinAFConfig(Open207Z_SPI2_MISO_GPIO_PORT, Open207Z_SPI2_MISO_SOURCE, Open207Z_SPI2_MISO_AF);
+Ws_spi.c (spix_at450bxx\user):	GPIO_PinAFConfig(Open207Z_SPI2_MOSI_GPIO_PORT, Open207Z_SPI2_MOSI_SOURCE, Open207Z_SPI2_MOSI_AF);
+Ws_spi.c (spix_at450bxx\user):	GPIO_InitStructure.GPIO_Pin = Open207Z_SPI2_SCK_PIN;
+Ws_spi.c (spix_at450bxx\user):	GPIO_Init(Open207Z_SPI2_SCK_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	GPIO_InitStructure.GPIO_Pin = Open207Z_SPI2_MISO_PIN;
+Ws_spi.c (spix_at450bxx\user):	GPIO_Init(Open207Z_SPI2_MISO_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	GPIO_InitStructure.GPIO_Pin = Open207Z_SPI2_MOSI_PIN;
+Ws_spi.c (spix_at450bxx\user):	GPIO_Init(Open207Z_SPI2_MOSI_GPIO_PORT, &GPIO_InitStructure);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_DeInit(Open207Z_SPI2);
+Ws_spi.c (spix_at450bxx\user):	SPI_Init(Open207Z_SPI2, &SPI_InitStruct);
+Ws_spi.c (spix_at450bxx\user):	SPI_Cmd(Open207Z_SPI2, ENABLE);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI2, SPI_I2S_FLAG_TXE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_SendData(Open207Z_SPI2,data);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI2, SPI_I2S_FLAG_RXNE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_ReceiveData(Open207Z_SPI2);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI2, SPI_I2S_FLAG_TXE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_SendData(Open207Z_SPI2,0xFF);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI2, SPI_I2S_FLAG_RXNE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	return SPI_I2S_ReceiveData(Open207Z_SPI2);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI1, SPI_I2S_FLAG_TXE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_SendData(Open207Z_SPI1,data);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI1, SPI_I2S_FLAG_RXNE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_ReceiveData(Open207Z_SPI1);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI1, SPI_I2S_FLAG_TXE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	SPI_I2S_SendData(Open207Z_SPI1,0xFF);
+Ws_spi.c (spix_at450bxx\user):	while(SPI_I2S_GetFlagStatus(Open207Z_SPI1, SPI_I2S_FLAG_RXNE)==RESET);
+Ws_spi.c (spix_at450bxx\user):	return SPI_I2S_ReceiveData(Open207Z_SPI1);
