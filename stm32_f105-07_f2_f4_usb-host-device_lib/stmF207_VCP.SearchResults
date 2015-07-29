@@ -1,0 +1,11 @@
+---- usbd_cdc_Init Matches (10 in 2 files) ----
+STM322xG-EVAL_HS.htm (stm32_usb-host-device_lib_v2.1.0\project\usb_device_examples\vcp\mdk-arm\stm322xg-eval): <LI><a href="#[1e]">usbd_cdc_Init</a> from usbd_cdc_core.o(i.usbd_cdc_Init) referenced 2 times from usbd_cdc_core.o(.data)
+STM322xG-EVAL_HS.htm (stm32_usb-host-device_lib_v2.1.0\project\usb_device_examples\vcp\mdk-arm\stm322xg-eval):<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_cdc_Init
+STM322xG-EVAL_HS.htm (stm32_usb-host-device_lib_v2.1.0\project\usb_device_examples\vcp\mdk-arm\stm322xg-eval):<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usbd_cdc_Init
+STM322xG-EVAL_HS.htm (stm32_usb-host-device_lib_v2.1.0\project\usb_device_examples\vcp\mdk-arm\stm322xg-eval):<P><STRONG><a name="[1e]"></a>usbd_cdc_Init</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, usbd_cdc_core.o(i.usbd_cdc_Init))
+STM322xG-EVAL_HS.htm (stm32_usb-host-device_lib_v2.1.0\project\usb_device_examples\vcp\mdk-arm\stm322xg-eval):<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = usbd_cdc_Init &rArr; DCD_EP_PrepareRx &rArr; USB_OTG_EPStartXfer &rArr; USB_OTG_WritePacket
+Usbd_cdc_core.c (stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\cdc\src):static uint8_t  usbd_cdc_Init        (void  *pdev, uint8_t cfgidx);
+Usbd_cdc_core.c (stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\cdc\src):  usbd_cdc_Init,
+Usbd_cdc_core.c (stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\cdc\src):  * @brief  usbd_cdc_Init
+Usbd_cdc_core.c (stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\cdc\src):static uint8_t  usbd_cdc_Init (void  *pdev, 
+Usbd_cdc_core.c (stm32_usb-host-device_lib_v2.1.0\libraries\stm32_usb_device_library\class\cdc\src):  * @brief  usbd_cdc_Init
