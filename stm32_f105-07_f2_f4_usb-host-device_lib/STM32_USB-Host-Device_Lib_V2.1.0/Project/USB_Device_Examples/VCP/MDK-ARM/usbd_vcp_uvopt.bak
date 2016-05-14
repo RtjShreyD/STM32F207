@@ -477,9 +477,9 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>106</LineNumber>
+          <LineNumber>86</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134230680</Address>
+          <Address>134229620</Address>
           <ByteObject>0</ByteObject>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
@@ -487,7 +487,7 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename></Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\STM322xG_EVAL_HS\app\106</Expression>
+          <Expression>\\STM322xG_EVAL_HS\usbd_cdc_vcp\86</Expression>
         </Bp>
       </Breakpoint>
       <DebugFlag>
@@ -848,10 +848,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>31</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>93</TopLine>
-      <CurrentLine>111</CurrentLine>
+      <TopLine>109</TopLine>
+      <CurrentLine>115</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\app.c</PathWithFileName>
       <FilenameWithoutPath>app.c</FilenameWithoutPath>
@@ -862,10 +862,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>31</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>48</TopLine>
-      <CurrentLine>48</CurrentLine>
+      <TopLine>265</TopLine>
+      <CurrentLine>276</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\usb_bsp.c</PathWithFileName>
       <FilenameWithoutPath>usb_bsp.c</FilenameWithoutPath>
@@ -906,8 +906,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>87</TopLine>
-      <CurrentLine>109</CurrentLine>
+      <TopLine>239</TopLine>
+      <CurrentLine>253</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\src\usbd_cdc_vcp.c</PathWithFileName>
       <FilenameWithoutPath>usbd_cdc_vcp.c</FilenameWithoutPath>
@@ -969,8 +969,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>272</TopLine>
+      <CurrentLine>288</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\Libraries\STM32_USB_OTG_Driver\src\usb_core.c</PathWithFileName>
       <FilenameWithoutPath>usb_core.c</FilenameWithoutPath>
@@ -983,8 +983,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>82</TopLine>
+      <CurrentLine>105</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\Libraries\STM32_USB_OTG_Driver\src\usb_dcd.c</PathWithFileName>
       <FilenameWithoutPath>usb_dcd.c</FilenameWithoutPath>
@@ -1014,12 +1014,12 @@
       <GroupNumber>3</GroupNumber>
       <FileNumber>12</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>128</TopLine>
-      <CurrentLine>141</CurrentLine>
+      <CurrentLine>157</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\Libraries\STM32_USB_Device_Library\Core\src\usbd_core.c</PathWithFileName>
       <FilenameWithoutPath>usbd_core.c</FilenameWithoutPath>
@@ -1193,8 +1193,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>222</TopLine>
+      <CurrentLine>233</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</PathWithFileName>
       <FilenameWithoutPath>stm32f2xx_gpio.c</FilenameWithoutPath>
@@ -1235,8 +1235,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1091</TopLine>
+      <CurrentLine>1108</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f2xx_rcc.c</FilenameWithoutPath>
@@ -1426,8 +1426,32 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>1</ActiveTab>
+      <ActiveTab>7</ActiveTab>
       <Documents>
+        <Doc>
+          <Name>..\..\..\..\Libraries\STM32_USB_OTG_Driver\src\usb_core.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>272</TopLine>
+          <CurrentLine>288</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\..\..\..\Libraries\STM32_USB_OTG_Driver\src\usb_dcd.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>82</TopLine>
+          <CurrentLine>105</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>222</TopLine>
+          <CurrentLine>233</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>1091</TopLine>
+          <CurrentLine>1108</CurrentLine>
+        </Doc>
         <Doc>
           <Name>..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_ioe.c</Name>
           <ColumnNumber>38</ColumnNumber>
@@ -1436,21 +1460,21 @@
         </Doc>
         <Doc>
           <Name>..\src\app.c</Name>
-          <ColumnNumber>31</ColumnNumber>
-          <TopLine>93</TopLine>
-          <CurrentLine>111</CurrentLine>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>109</TopLine>
+          <CurrentLine>115</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\src\usb_bsp.c</Name>
-          <ColumnNumber>31</ColumnNumber>
-          <TopLine>48</TopLine>
-          <CurrentLine>48</CurrentLine>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>265</TopLine>
+          <CurrentLine>276</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\src\usbd_cdc_vcp.c</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>87</TopLine>
-          <CurrentLine>109</CurrentLine>
+          <TopLine>239</TopLine>
+          <CurrentLine>253</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\src\usbd_desc.c</Name>
@@ -1474,7 +1498,7 @@
           <Name>..\..\..\..\Libraries\STM32_USB_Device_Library\Core\src\usbd_core.c</Name>
           <ColumnNumber>0</ColumnNumber>
           <TopLine>128</TopLine>
-          <CurrentLine>141</CurrentLine>
+          <CurrentLine>157</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\..\..\..\Libraries\STM32_USB_Device_Library\Core\src\usbd_ioreq.c</Name>

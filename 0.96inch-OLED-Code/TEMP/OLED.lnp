@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "..\temp\spi.o" "..\temp\ssd1306.o" "..\temp\delay.o" "..\temp\iic.o" "..\temp\fonts.o" "..\temp\core_cm3.o" "..\temp\system_stm32f10x.o" "..\temp\startup_stm32f10x_hd.o" "..\temp\misc.o" "..\temp\stm32f10x_gpio.o" "..\temp\stm32f10x_rcc.o" "..\temp\stm32f10x_spi.o" "..\temp\stm32f10x_usart.o" "..\temp\stm32f10x_adc.o" "..\temp\stm32f10x_dma.o" "..\temp\config.o" "..\temp\main.o" "..\temp\pnslogo.o" --strict --scatter "..\TEMP\OLED.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\TEMP\OLED.map" -o "..\TEMP\OLED.axf"

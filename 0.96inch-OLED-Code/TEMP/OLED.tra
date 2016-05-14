@@ -1,0 +1,36 @@
+*** Creating Trace Output File '..\TEMP\OLED.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\temp\spi.o"'
+### List of Objects: adding '"..\temp\ssd1306.o"'
+### List of Objects: adding '"..\temp\delay.o"'
+### List of Objects: adding '"..\temp\iic.o"'
+### List of Objects: adding '"..\temp\fonts.o"'
+### List of Objects: adding '"..\temp\core_cm3.o"'
+### List of Objects: adding '"..\temp\system_stm32f10x.o"'
+### List of Objects: adding '"..\temp\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\temp\misc.o"'
+### List of Objects: adding '"..\temp\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\temp\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\temp\stm32f10x_spi.o"'
+### List of Objects: adding '"..\temp\stm32f10x_usart.o"'
+### List of Objects: adding '"..\temp\stm32f10x_adc.o"'
+### List of Objects: adding '"..\temp\stm32f10x_dma.o"'
+### List of Objects: adding '"..\temp\config.o"'
+### List of Objects: adding '"..\temp\main.o"'
+### List of Objects: adding '"..\temp\pnslogo.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\temp\spi.o" "..\temp\ssd1306.o" "..\temp\delay.o" "..\temp\iic.o" "..\temp\fonts.o" "..\temp\core_cm3.o" "..\temp\system_stm32f10x.o" "..\temp\startup_stm32f10x_hd.o" "..\temp\misc.o" "..\temp\stm32f10x_gpio.o" "..\temp\stm32f10x_rcc.o" "..\temp\stm32f10x_spi.o" "..\temp\stm32f10x_usart.o" "..\temp\stm32f10x_adc.o" "..\temp\stm32f10x_dma.o" "..\temp\config.o" "..\temp\main.o" "..\temp\pnslogo.o" --strict --scatter "..\TEMP\OLED.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\TEMP\OLED.map" -o "..\TEMP\OLED.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\TEMP\OLED.axf'
+### ADS-LD Command File: '..\TEMP\OLED.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\TEMP\OLED.lnp', Handle=0x00000488
+### Writing '.lnp' file
+### ADS-LD Command file '..\TEMP\OLED.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

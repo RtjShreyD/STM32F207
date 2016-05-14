@@ -3,17 +3,45 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\Seok Jung\Desktop\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\usbd_vcp.uvproj
+C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\usbd_vcp.uvproj
 Project File Date:  07/23/2015
 
 <h2>Output:</h2>
-Build target 'STM322xG-EVAL_USBD-HS'
-compiling usbd_desc.c...
-linking...
-Program Size: Code=12512 RO-data=9668 RW-data=444 ZI-data=5404  
-".\STM322xG-EVAL\STM322xG-EVAL_HS.axf" - 0 Error(s), 0 Warning(s).
-Load "C:\\Users\\Seok Jung\\Desktop\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
-Set JLink Project File to "C:\Users\Seok Jung\Desktop\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled May 27 2009 17:31:22
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Device "STM32F207IG" selected (1024 KB flash, 128 KB RAM).
+ 
+Target info:
+------------
+Device: STM32F207IG
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
  
 JLink info:
 ------------
@@ -46,19 +74,11 @@ Erase Done.
 Programming Done.
 Verify OK.
 Build target 'STM322xG-EVAL_USBD-HS'
-compiling app.c...
-compiling usbd_cdc_vcp.c...
-..\src\usbd_cdc_vcp.c(253): error:  #20: identifier "UCHAR" is undefined
-compiling usbd_desc.c...
-Target not created
-Build target 'STM322xG-EVAL_USBD-HS'
-compiling usbd_cdc_vcp.c...
-..\src\usbd_cdc_vcp.c(253): warning:  #177-D: variable "RCV_CNT" was declared but never referenced
 linking...
 Program Size: Code=12520 RO-data=9668 RW-data=444 ZI-data=5404  
-".\STM322xG-EVAL\STM322xG-EVAL_HS.axf" - 0 Error(s), 1 Warning(s).
-Load "C:\\Users\\Seok Jung\\Desktop\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
-Set JLink Project File to "C:\Users\Seok Jung\Desktop\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+".\STM322xG-EVAL\STM322xG-EVAL_HS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
  
 JLink info:
 ------------
@@ -68,25 +88,124 @@ Hardware: V8.00
 S/N : 20090629 
 Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
  
-* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
-* JLink Info: Found Cortex-M3 r2p0, Little endian.
-* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
-* JLink Info: TPIU fitted.
-* JLink Info: ETM fitted.
-ROMTableAddr = 0xE00FF003
-* JLink Info: Device "STM32F207IG" selected (1024 KB flash, 128 KB RAM).
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
  
-Target info:
+JLink info:
 ------------
-Device: STM32F207IG
-VTarget = 3.293V
-State of Pins: 
-TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
-Hardware-Breakpoints: 6
-Software-Breakpoints: 8192
-Watchpoints:          4
-JTAG speed: 2000 kHz
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
  
-Erase Done.
-Programming Done.
-Verify OK.
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Load "C:\\Users\\Seok Jung\\Documents\\GitHub\\STM32F207\\stm32_f105-07_f2_f4_usb-host-device_lib\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Device_Examples\\VCP\\MDK-ARM\\STM322xG-EVAL\\STM322xG-EVAL_HS.AXF" 
+Set JLink Project File to "C:\Users\Seok Jung\Documents\GitHub\STM32F207\stm32_f105-07_f2_f4_usb-host-device_lib\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Device_Examples\VCP\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 20090629 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
